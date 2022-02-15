@@ -1,0 +1,158 @@
+/*---Slider---*/
+html,
+body {
+	font-size: 18px;
+	line-height: 1.5;
+	box-sizing: border-box;
+	margin: 0;
+	overflow-x: hidden;
+	top: 0;
+	left: 0;
+}
+
+.navbar .navbar-brand{
+	font-size: 2.5em !important;
+	color:forestgreen;
+}
+ .navbar .navbar-nav li a:hover{
+	color: forestgreen !important;
+}
+
+a {
+	text-decoration: none;
+	font-weight: 500;
+}
+
+
+/*---Slider---*/
+.carousel-item {
+	height: 70vh;
+	min-height: 100px;
+	/*background: no-repeat scroll center scroll;
+    -webkit-background-size: cover; 
+    background-size: cover;*/
+}
+
+.carousel-item::before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background-color: black;
+	opacity: 0.3
+}
+
+.carousel-caption {
+	bottom: 100px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+.carousel-caption h5 {
+	font-size: 100px;
+	color: aliceblue;
+}
+
+.carousel-caption p {
+	color: beige;
+}
+
+.carousel prev-icons {
+	color: aliceblue;
+}
+
+.slider-btn {
+	background-color: aliceblue;
+}
+
+/*---About Us---*/
+.bg-1 {
+	background-color: #1abc9c;
+	color: #ffffff;
+}
+
+.bg-2 {
+	background-color: #474e5d;
+	color: #ffffff;
+}
+
+.bg-3 {
+	background-color: #ffffff;
+	color: #555555;
+}
+
+.container-f {
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+
+/*---Purchase---*/
+.panel {
+	border: 1px solid #1abc9c;
+	border-radius: 0;
+	transition: box-shadow 0.5s;
+}
+
+.panel:hover {
+	box-shadow: 5px 0px 40px rgba(0, 0, 0, .2);
+}
+
+.panel-footer .btn:hover {
+	border: 1px solid #1abc9c;
+	background-color: #fff !important;
+	color: #474e5d;
+}
+
+.panel-heading {
+	color: #474e5d !important;
+	background-color: #1abc9c !important;
+	padding: 25px;
+	border-bottom: 1px solid transparent;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+
+.panel-footer {
+	background-color: #fff !important;
+}
+
+.panel-footer h3 {
+	font-size: 32px;
+}
+
+.panel-footer h4 {
+	color: #aaa;
+	font-size: 14px;
+}
+
+.panel-footer .btn {
+	margin: 15px 0;
+	background-color: #1abc9c;
+	color: #fff;
+}
+
+
+/*---Testimonials---
+.accordion-button{
+background-color: lightslategray;
+}*/
+
+/*---Testimonials--*/
+.form-label {
+	color: black
+}
+
+.btn btn-primary {
+	background: green;
+}
+
+/*---Footer---*/
+.fab fa-facebook {
+	color: black;
+}
